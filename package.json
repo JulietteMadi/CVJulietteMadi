@@ -2,6 +2,7 @@
   "name": "cv-juliette-madinier",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://juliettemadi.github.io/CVJulietteMadi/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
