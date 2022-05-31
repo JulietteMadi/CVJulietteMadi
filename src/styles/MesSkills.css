@@ -1,0 +1,53 @@
+.sectionSkills{
+    margin: 10%;
+    max-width: 1600px;
+    padding-top: 20px;
+}
+
+.titleSkills{
+    text-align: center;
+    color: #EBBB7F;
+    margin-bottom: 2%;
+}
+
+.skillsBoxSectionDesktop {
+  
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+}
+
+.skillsBoxSectionPhone {
+  
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+    padding-left: 10%;
+}
+
+
+.underSection {
+    padding: 3%;
+    flex: 1 1 50%;
+}
+
+.flexSkillRate {
+    display : flex;
+    flex-direction: row;
+    column-gap: 8px;
+    margin-bottom: 8px;
+}
+
+.skillName {
+    text-align: right;
+    font-weight: 600;
+    flex: 30%
+}
+
+.skillRate {
+    flex: 70%;
+}

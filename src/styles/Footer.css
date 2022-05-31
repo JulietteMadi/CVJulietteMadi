@@ -1,0 +1,47 @@
+.footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: url("https://le-trois-de-coeur.com/wp-content/uploads/2022/05/FooterCV.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footerTextDesktop {
+    background-color: white;
+    margin: 5% 50% 5% 10%;
+    border-radius: 3px;
+    padding: 5%;
+}
+
+.footerTextPhone {
+    background-color: white;
+    margin: 20% 10%;
+    border-radius: 3px;
+    padding: 5%;
+}
+
+.titre {
+    color: #EBBB7F;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.flexFooter{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.flexItemFooter{
+    flex: 0 0 5%;
+    text-align: right;
+    line-height: 2;
+    font-size: large;
+}
+
+.flexInfoFooter{
+    flex: 1 1 85%;
+    text-align: left;
+    line-height: 2;
+    font-size: large;
+}

@@ -1,0 +1,57 @@
+.sectionOrganisationIntroduction {
+    max-width: 1600px;
+    padding-top: 20px;
+}
+
+.shadowBoxIntroductionDesktop {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+    column-gap: 5%;
+    margin: 10%;
+    flex-basis: 50px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+}
+
+.shadowBoxintroductionPhone {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+    margin: 10%;
+    column-gap: 5%;
+    flex-basis: 50px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+}
+
+.flexStyleShadowBoxIntroduction {
+    flex: 1 1 30%;
+    
+}
+
+
+
+/* CSS de la section Mes Informations : */
+
+.typeStyle {
+    font-weight: 600;
+    text-transform: uppercase;
+    flex: 1 1 15%;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.infoStyle {
+    flex: 0 0 85%;
+    line-height: 1.5;
+    max-width: 80%;
+}
+
+.flexMesInformations {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3%;
+}

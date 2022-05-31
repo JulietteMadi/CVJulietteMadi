@@ -1,0 +1,75 @@
+.sectionOrganisationXP {
+    margin: 10%;
+    max-width: 1600px;
+    padding-top: 20px;
+}
+
+.titleXPPro {
+    text-align: center;
+    color: #EBBB7F;
+    margin-bottom: 5%;
+}
+
+
+.xpBoxSection {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.boxOrganisationDesktop {
+    display : flex;
+    flex-direction: row;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+        
+}
+
+.boxOrganisationPhone {
+    display : flex;
+    flex-direction: column;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
+    margin-top: 2%;
+}
+
+
+
+
+.entity {
+    background-color: #EBBB7F;
+    color: white;
+    text-align: center;
+    border-radius: 3px 0px 0px 3px;
+    padding: 2%;    
+    flex: 1 1 20%;
+}
+
+.entity:hover {
+    background-color: #EDCBA9;
+    color: white;
+    text-align: center;
+    border-radius: 3px 0px 0px 3px;
+    padding: 2%;    
+    flex: 1 1 20%;
+    cursor: pointer;
+}
+
+.experience {
+    padding: 2%;
+    flex: 1 1 80%;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.year {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.subtitleXP {
+    font-weight: 600;
+}
