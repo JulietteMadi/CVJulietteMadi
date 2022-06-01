@@ -6,7 +6,7 @@ function Footer () {
 
 return(
     <div className='footer'>
-        <MediaQuery minWidth={1080}>
+        <MediaQuery minWidth={920}>
         <div className='footerTextDesktop'>
         <h2 className='titre'>contactez-moi !</h2>
             {listContact.map ((list) =>
@@ -17,7 +17,7 @@ return(
                 )}
         </div>
         </MediaQuery>
-        <MediaQuery maxWidth={1080}>
+        <MediaQuery maxWidth={920}>
         <div className='footerTextPhone'>
         <h2 className='titre'>contactez-moi !</h2>
             {listContact.map ((list) =>

@@ -7,7 +7,7 @@ function MesFormations () {
     return(
         <div className="sectionOrganisationXP">
             <h2 className="titleXPPro">Mes Formations</h2>
-            <MediaQuery minWidth={1080}>
+            <MediaQuery minWidth={920}>
             <div className="xpBoxSection">
                 {mesXP.filter (entité => entité.XPType === "Formation").map((list) =>
                 
@@ -31,7 +31,7 @@ function MesFormations () {
                 
             </div>
             </MediaQuery>
-            <MediaQuery maxWidth={1080}>
+            <MediaQuery maxWidth={920}>
             <div className="xpBoxSection">
                 {mesXP.filter (entité => entité.XPType === "Formation").map((list) =>
                 

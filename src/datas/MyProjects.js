@@ -5,7 +5,7 @@ export const MyProjects = [
         Text: [
             {
                 Tech: '<ReactJS /> <Typescript /> <Github />',
-                Description: 'Afin de confirmer mes compétences acquises en ReactJS, j’ai créé un Pokedex grâce à la ressource PokéAPI. Mes pull requests étaient soumises à validation auprès d’un coach, le projet disponible sur mon GitHub',
+                Description: 'Afin de confirmer mes compétences acquises en ReactJS, je crée un Pokedex grâce à la ressource PokéAPI. Mes pull requests sont soumises à validation auprès d’un coach, le projet sera publié très prochainement !',
             }
         ],
         ID: '5mppx'
@@ -16,7 +16,7 @@ export const MyProjects = [
         Text: [
             {
                 Tech: '<WordPress /> <GoogleAds /> <Google Trends />',
-                Description: 'Dans le cadre de mon bénévolat au sein de l’association Tous tes possibles (pour l’inclusion dans le monde de l’entreprise), j’ai conseillé les équipes techniques lors de la création du site Inclubox, afin d’optimiser son UX et sa stratégie SEO',
+                Description: 'Dans le cadre de mon bénévolat au sein de l’association Tous tes possibles (pour l’inclusion dans le monde de l’entreprise), je conseille les équipes techniques dans la création du site Inclubox, afin d’optimiser son UX et sa stratégie SEO',
             }
         ],
         ID: '5mpix'

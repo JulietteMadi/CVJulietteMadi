@@ -8,7 +8,7 @@ function MesSkills () {
     return (
         <div className="sectionSkills">
             <h2 className="titleSkills">Mes Skills</h2>
-            <MediaQuery minWidth={1080}>
+            <MediaQuery minWidth={920}>
             <div className="skillsBoxSectionDesktop">
                 {mySkillsList.map((list) =>
                     <div key={list.SkillID} className="underSection">
@@ -26,7 +26,7 @@ function MesSkills () {
                 )}
             </div>
             </MediaQuery>
-            <MediaQuery maxWidth={1080}>
+            <MediaQuery maxWidth={920}>
             <div className="skillsBoxSectionPhone">
                 {mySkillsList.map((list) =>
                     <div key={list.SkillID} className="underSection">

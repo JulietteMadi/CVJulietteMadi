@@ -102,7 +102,7 @@ export const mesXP = [
         DescriptionXP: [
             {
                 titre: '' ,
-                description: 'Validation du Master en section anglophone (cours en anglais), échange d’un semestre à Daegu (Corée du Sud). Thèse professionnelle validée : les violences sexistes en entreprise.',
+                description: 'Validation du Master en section anglophone (cours en anglais), échange d’un semestre à Daegu (Corée du Sud).',
             },
             {
                 titre: 'Compétences acquises : ' ,

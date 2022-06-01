@@ -11,7 +11,7 @@ function MesProjetsPerso () {
     return(
         <div className='sectionProjetsPersoOrganisation'>
             <h2 className='titleProjetsPro'>Mes projets Web personnels</h2>
-            <MediaQuery minWidth={1080}>
+            <MediaQuery minWidth={920}>
             <div className='persoBoxSectionDesktop'> 
                        {MyProjects.map((list) =>
                             <div className='persoBoxOrganisation'>
@@ -32,7 +32,7 @@ function MesProjetsPerso () {
                                
             
             </MediaQuery>
-            <MediaQuery maxWidth={1080}>
+            <MediaQuery maxWidth={920}>
             <div className='persoBoxSectionPhone'> 
                        {MyProjects.map((list) =>
                             <div className='persoBoxOrganisation'>

@@ -11,7 +11,7 @@ function MesExperiencesPro () {
     return(
         <div className="sectionOrganisationXP">
             <h2 className="titleXPPro">Mes expériences professionnelles</h2>
-            <MediaQuery minWidth={1080}>
+            <MediaQuery minWidth={920}>
                 <div className="xpBoxSection">
                 {mesXP.filter (entité => entité.XPType === "Entreprise").map((list) =>
                     <div key = {list.id} className="boxOrganisationDesktop">
@@ -34,7 +34,7 @@ function MesExperiencesPro () {
                 </div>
             </MediaQuery>
 
-            <MediaQuery maxWidth={1080}>
+            <MediaQuery maxWidth={920}>
             <div className="xpBoxSection">
                 {mesXP.filter (entité => entité.XPType === "Entreprise").map((list) =>
                     <div key = {list.id} className="boxOrganisationPhone">
