@@ -1,6 +1,6 @@
 export const MyProjects = [
     {
-        Title: 'Pokedex',
+        Title: 'Pokedex - Projet en cours',
         Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/Capture-decran-2022-05-13-000111.png' className='imageSettings' onClick={()=> window.open('https://github.com/JulietteMadi/pokedex', '-blank')}></img>,
         Text: [
             {
@@ -11,7 +11,7 @@ export const MyProjects = [
         ID: '5mppx'
     },
     {
-        Title: 'Inclubox',
+        Title: 'Inclubox - Projet en cours',
         Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/PicsInclubox.png' className='imageSettings' onClick={() => window.open('https://inclubox.fr/', '_blank')}></img>,
         Text: [
             {
