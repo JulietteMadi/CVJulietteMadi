@@ -9,7 +9,7 @@ function Header() {
     return(
     <div className = 'sectionOrganisationHeader'>
         <div className='informationZone'>
-            <img className='roundPortait' src='https://le-trois-de-coeur.com/wp-content/uploads/2019/09/JU-carré.jpg' />
+            <img className='roundPortait' src='https://le-trois-de-coeur.com/wp-content/uploads/2022/06/JU-3.jpg' />
             <h1>{title}</h1>
             <h2 className='headerSubtitle'>{subtitle}</h2>
             <h2 className='headerDescription'>{description}</h2>

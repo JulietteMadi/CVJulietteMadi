@@ -1,5 +1,5 @@
 .sectionProjetsPersoOrganisation {
-    margin: 10%;
+    margin: 10% auto;
     max-width: 1600px;
     padding-top: 20px;
 }
@@ -40,9 +40,6 @@
     border-radius: 3px 3px 0px 0px;
 }
 
-.imageSettings:hover {
-    cursor: pointer;
-}
 
 .descriptionSettings {
     text-align: justify;
@@ -61,9 +58,28 @@
     border-radius: 5px 0 0 5px;
 }
 
+.projetPersoTitre:hover {
+
+    text-align: right;
+    background-color: #EDCBA9;
+    padding: 3%;
+    font-weight: 600;
+    color: white;
+    margin-left: 33%;
+    margin-top: -5%;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
 .outilsUtilisés  {
     font-style: italic;
     font-weight: 500;
+}
+
+.titleButtonProjetsWeb {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px
 }
 
 .buttonProjetsWeb {
@@ -71,7 +87,7 @@
     color: white;
     font-size: large;
     padding: 13px;
-    margin-top: 8%;
+    margin-top: 2%;
     border: none;
     border-radius: 3px;
     
@@ -82,7 +98,7 @@
     color: #EBBB7F;
     font-size: large;
     padding: 1% 2%;
-    margin-top: 8%;
+    margin-top: 2%;
     border: 2px;
     border-style: solid;
     border-radius: 3px;

@@ -1,7 +1,8 @@
 export const MyProjects = [
     {
-        Title: 'Pokedex - Projet en cours',
-        Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/Capture-decran-2022-05-13-000111.png' className='imageSettings' onClick={()=> window.open('https://github.com/JulietteMadi/pokedex', '-blank')}></img>,
+        Title: 'Pokedex - Projet en cours ⚙',
+        Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/Capture-decran-2022-05-13-000111.png' className='imageSettings'></img>,
+        Website: 'https://github.com/JulietteMadi/pokedex',
         Text: [
             {
                 Tech: '<ReactJS /> <Typescript /> <Github />',
@@ -11,8 +12,9 @@ export const MyProjects = [
         ID: '5mppx'
     },
     {
-        Title: 'Inclubox - Projet en cours',
-        Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/PicsInclubox.png' className='imageSettings' onClick={() => window.open('https://inclubox.fr/', '_blank')}></img>,
+        Title: 'Inclubox',
+        Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/PicsInclubox.png' className='imageSettings'></img>,
+        Website: 'https://inclubox.fr/',
         Text: [
             {
                 Tech: '<WordPress /> <GoogleAds /> <Google Trends />',
@@ -23,7 +25,8 @@ export const MyProjects = [
     },
     {
         Title: 'Le Trois de Coeur',
-        Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/Pics3deCoeur.png' className='imageSettings' onClick={()=> window.open("https://le-trois-de-coeur.com/", '_blank')} ></img>,
+        Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/Pics3deCoeur.png' className='imageSettings'></img>,
+        Website: 'https://le-trois-de-coeur.com/',
         Text: [
             {
                 Tech: '<WordPress /> <OVH /> <Google Analytics /> <SEMRush />',

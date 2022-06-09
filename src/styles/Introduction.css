@@ -1,6 +1,7 @@
 .sectionOrganisationIntroduction {
     max-width: 1600px;
     padding-top: 20px;
+    margin: 10% auto;
 }
 
 .shadowBoxIntroductionDesktop {
@@ -9,7 +10,6 @@
     padding: 20px;
     justify-content: space-around;
     column-gap: 5%;
-    margin: 10%;
     flex-basis: 50px;
     border-radius: 3px;
     box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;

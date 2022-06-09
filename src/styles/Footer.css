@@ -8,9 +8,10 @@
 
 .footerTextDesktop {
     background-color: white;
-    margin: 5% 50% 5% 10%;
+    margin: 10% auto;
     border-radius: 3px;
     padding: 5%;
+    max-width: 920px;
 }
 
 .footerTextPhone {
