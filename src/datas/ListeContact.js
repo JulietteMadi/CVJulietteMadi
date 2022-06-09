@@ -15,7 +15,7 @@ export const listContact = [
     {
         item: '📍',
         id: '6lcln',
-        info: '138, Bdoulevard de Charonne 75020 Paris'
+        info: '138, Boulevard de Charonne 75020 Paris'
     },
 
 ]

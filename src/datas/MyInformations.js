@@ -15,7 +15,7 @@ export const myInformations = [
     {
         item: 'ADRESSE',
         id: '2miln',
-        info: '138, Bdoulevard de Charonne 75020 Paris'
+        info: '138, Boulevard de Charonne 75020 Paris'
     },
 
     {
