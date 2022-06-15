@@ -2,7 +2,7 @@ export const MyProjects = [
     {
         Title: 'Pokedex - Projet en cours ⚙',
         Picture: <img src='https://le-trois-de-coeur.com/wp-content/uploads/2022/05/Capture-decran-2022-05-13-000111.png' className='imageSettings'></img>,
-        Website: 'https://github.com/JulietteMadi/pokedex',
+        Website: 'https://juliettemadi.github.io/MonPokedex/',
         Text: [
             {
                 Tech: '<ReactJS /> <Typescript /> <Github />',
