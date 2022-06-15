@@ -39,7 +39,7 @@ function MesProjetsPerso () {
                        {MyProjects.map((list) =>
                             <div className='persoBoxOrganisation'>
                                 {list.Picture}
-                                <h3 className='projetPersoTitre'>{list.Title}</h3>
+                                <h3 className='projetPersoTitre' onClick={() => {window.open(list.Website, "_blank"); setCount(count+1)}}>{list.Title}</h3>
                                 <div>
                                     {list.Text.map((loop) =>
                                     <div className='descriptionSettings'>
