@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CVJulietteMadi/static/css/main.cc5181b0.css",
-    "main.js": "/CVJulietteMadi/static/js/main.932fadf6.js",
+    "main.js": "/CVJulietteMadi/static/js/main.2bcd111b.js",
     "static/js/787.2a1f0243.chunk.js": "/CVJulietteMadi/static/js/787.2a1f0243.chunk.js",
     "index.html": "/CVJulietteMadi/index.html",
     "main.cc5181b0.css.map": "/CVJulietteMadi/static/css/main.cc5181b0.css.map",
-    "main.932fadf6.js.map": "/CVJulietteMadi/static/js/main.932fadf6.js.map",
+    "main.2bcd111b.js.map": "/CVJulietteMadi/static/js/main.2bcd111b.js.map",
     "787.2a1f0243.chunk.js.map": "/CVJulietteMadi/static/js/787.2a1f0243.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc5181b0.css",
-    "static/js/main.932fadf6.js"
+    "static/js/main.2bcd111b.js"
   ]
 }

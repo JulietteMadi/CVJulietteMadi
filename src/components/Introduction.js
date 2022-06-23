@@ -31,8 +31,8 @@ function Introduction () {
         <div className='flexStyleShadowBoxIntroduction'>
             <MesInformations />
         </div>
-    </div>
-    </MediaQuery>
+        </div>
+        </MediaQuery>
         </div>
     )
 }
