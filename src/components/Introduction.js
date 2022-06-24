@@ -10,29 +10,15 @@ function Introduction () {
     
     return(
         <div className='sectionOrganisationIntroduction'>
-        <MediaQuery minWidth={920}>
-            <div className='shadowBoxIntroductionDesktop'>
-            <div className='flexStyleShadowBoxIntroduction'>
-                <h3>Qui suis-je ?</h3>
-                <p>{description}</p>
-            </div>
-            <div className='flexStyleShadowBoxIntroduction'>
-                <MesInformations />
-            </div>
-        </div>
-        </MediaQuery>
-
-        <MediaQuery maxWidth={920}>
-        <div className='shadowBoxintroductionPhone'>
-        <div className='flexStyleShadowBoxIntroduction'>
-            <h3>Qui suis-je ?</h3>
-            <p>{description}</p>
-        </div>
-        <div className='flexStyleShadowBoxIntroduction'>
-            <MesInformations />
-        </div>
-        </div>
-        </MediaQuery>
+                <div className='shadowBoxIntroduction'>
+                    <div className='flexStyleShadowBoxIntroduction'>
+                        <h3>Qui suis-je ?</h3>
+                        <p>{description}</p>
+                    </div>
+                    <div className='flexStyleShadowBoxIntroduction'>
+                        <MesInformations />
+                    </div>
+                </div>
         </div>
     )
 }

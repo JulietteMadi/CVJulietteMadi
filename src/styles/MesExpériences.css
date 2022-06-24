@@ -17,7 +17,7 @@
     row-gap: 20px;
 }
 
-.boxOrganisationDesktop {
+.boxOrganisation {
     display : flex;
     flex-direction: row;
     border-radius: 3px;
@@ -25,12 +25,10 @@
         
 }
 
-.boxOrganisationPhone {
-    display : flex;
-    flex-direction: column;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
-    margin-top: 2%;
+@media only screen and (max-width: 920px) {
+    .boxOrganisation {
+        flex-direction: column;
+    }
 }
 
 

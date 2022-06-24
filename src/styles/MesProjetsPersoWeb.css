@@ -10,19 +10,19 @@
     margin-bottom: 5%;
 }
 
-.persoBoxSectionDesktop {
+.persoBoxSection {
     display: flex;
     flex-direction: row;
     column-gap: 20px;
 }
 
-.persoBoxSectionPhone {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    margin-top: 2%;
+@media only screen and (max-width: 920px) {
+    .persoBoxSection {
+        flex-direction: column;
+        row-gap: 20px;
+        margin-top: 2%;
+    }
 }
-
 
 .persoBoxOrganisation {
     display : flex;
