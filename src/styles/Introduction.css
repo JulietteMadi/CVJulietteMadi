@@ -4,28 +4,6 @@
     margin: 10% ;
 }
 
-.shadowBoxIntroductionDesktop {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-around;
-    column-gap: 5%;
-    flex-basis: 50px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
-}
-
-.shadowBoxintroductionPhone {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    justify-content: space-around;
-    margin: 10%;
-    column-gap: 5%;
-    flex-basis: 50px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px grey, -1px -1px 5px grey;
-}
 
 .shadowBoxIntroduction {
     display: flex;
@@ -41,6 +19,7 @@
 @media only screen and (min-width: 920px) {
     .shadowBoxIntroduction {
         flex-direction: row;
+        margin: 10% 0%;
     }
 }
 

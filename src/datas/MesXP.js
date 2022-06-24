@@ -1,4 +1,3 @@
-//Type 1 stands for 'expérience professionnelle', Type 2 stands for 'formation'
 export const mesXP = [
 
     {
@@ -84,7 +83,7 @@ export const mesXP = [
             },
             {
                 titre: 'Compétences déjà validées au sein de l’organisme : ' ,
-                description: 'Créez un site web avec HTML5 et CSS3, Gérer du code avec Git et GitHub, Fonctionnement des algorithmes, Programmer avec Javascript, Débuter avec ReactJS, Gestion de projet agile'
+                description: 'Créer un site web avec HTML5 et CSS3, Gérer du code avec Git et GitHub, Fonctionnement des algorithmes, Programmer avec Javascript, Débuter avec ReactJS, Gestion de projet agile'
 
             },
         ],
