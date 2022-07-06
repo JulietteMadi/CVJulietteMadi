@@ -10,7 +10,7 @@ export const mySkillsList = [
 
             {
                 Name: 'Javascript',
-                Score: 1,
+                Score: 2,
             },
 
             {
@@ -24,7 +24,12 @@ export const mySkillsList = [
             },
 
             {
-                Name: 'Python (théorie)',
+                Name: 'Angular',
+                Score: 1,
+            },
+
+            {
+                Name: 'Python',
                 Score: 1,
             },
         ],
@@ -69,6 +74,11 @@ export const mySkillsList = [
             {
                 Name: 'Trello, Asana',
                 Score: 4,
+            },
+
+            {
+                Name: 'Admin. CMS',
+                Score: 3,
             },
 
             {
